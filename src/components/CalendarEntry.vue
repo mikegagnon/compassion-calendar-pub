@@ -42,7 +42,6 @@ function dateStr(entry: DatedCard) {
   font-size: 20pt;
 }
 
-
 .minor-note {
   font-size: 70%;
   margin-bottom: 0px;

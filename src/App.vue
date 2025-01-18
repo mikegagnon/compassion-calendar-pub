@@ -4,8 +4,9 @@ import { theLojong } from './theLojong.ts';
 import CalendarEntry from './components/CalendarEntry.vue';
 import { ref, onMounted, nextTick, type Ref } from 'vue';
 
-// `calendarEntryMarginTop` should match the margin
-// from css class `calendar-entry` from CalendarEntry.vue.
+// `calendarEntryMarginTop` should match the margin-top and
+// margin-bottom from the CSS class `calendar-entry` from
+// CalendarEntry.vue.
 //
 // Code review: it would be nice if the CSS class for
 // `calendar-entry` imported this constant (or the other
